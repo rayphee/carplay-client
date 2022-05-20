@@ -1,0 +1,45 @@
+// pub fn get_type(&self) -> MsgType {
+//     let ret = match self.msg_type {
+//         OPENBOX => MsgType::OpenBox,
+//         // DEVPLUG => MsgType::DevPlug,
+//         // DEVUNPLUG => MsgType::DevUnplug,
+//         // TOUCH => MsgType::Touch,
+//         // VIDEO => MsgType::Video,
+//         // AUDIO => MsgType::Audio,
+//         // BUTTONCTL => MsgType::ButtonCtl,
+//         // BTADDR => MsgType::BtAddr,
+//         // BTPIN => MsgType::BtPin,
+//         // MANINFO => MsgType::ManInfo,
+//         // MULTITOUCH => MsgType::MultiTouch,
+//         // SENDFILE => MsgType::SendFile,
+//         // HEARTBEAT => MsgType::Heartbeat,
+//         // SWVER => MsgType::SwVer,
+//     };
+//     ret
+// }
+
+// const ID_VENDOR: u16 = 0x0781;
+// const ID_PRODUCT:u16 = 0x5597;
+
+// impl MsgType {
+//     pub fn set_header(&mut self, msg_len: u32) -> BoxMsgHeader {
+//         let msg_type: u32 = match self {
+//             OpenBox => OPENBOX,
+//             DevPlug => DEVPLUG,
+//             DevUnplug => DEVUNPLUG,
+//             Touch => TOUCH,
+//             Video => VIDEO,
+//             Audio => AUDIO,
+//             ButtonCtl => BUTTONCTL,
+//             BtAddr => BTADDR,
+//             BtPin => BTPIN,
+//             ManInfo => MANINFO,
+//             MultiTouch => MULTITOUCH, 
+//             SendFile => SENDFILE,
+//             Heartbeat => HEARTBEAT,
+//             SwVer => SWVER,
+//         };
+//         let header = BoxMsgHeader::new(msg_type, msg_len);
+//         header
+//     }
+// }
