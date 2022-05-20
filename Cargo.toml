@@ -1,0 +1,17 @@
+[package]
+name = "carplay-client"
+version = "0.0.2"
+authors = ["Rafi Mueen <r.mueen@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.121"
+libusb1-sys = "0.6.2"
+rusb = "0.9.1"
+serde = { version = "1.0.136", features = ["derive"] }
+bincode = "1.3.3"
+# serde = { version = "0.9", features = ["derive"] }
+input = "0.7"
+mpv = "0.2.3"
